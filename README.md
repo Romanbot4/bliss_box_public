@@ -7,6 +7,12 @@
 ## Disclaimer
 <p align="justify">
 BlissBox is a music app that provides access to songs and other content through third-party plugins. The app does not store any of the content on its servers and is not responsible for any of the content's availability, accuracy, or legality. The songs and other content are the property of their respective owners and are protected by copyright law. By using the app, you acknowledge that you are solely responsible for any consequences resulting from your use of the content, including any copyright or intellectual property infringement.
+
+BlissBox does not have any affiliation or endorsement with the owners of the songs and other content, and does not assume any responsibility for any harm or damage that may result from the use of the third-party plugins. The app does not provide any warranty for the accuracy, reliability, or availability of the content and is not responsible for any errors or omissions in the content.
+
+By using the app, you agree to use the songs and other content only for personal, non-commercial purposes and in accordance with all applicable laws and regulations. BlissBox does not support or condone any unauthorized use of the songs and other content available through the app, and you may be subject to legal action if you violate any copyright or intellectual property rights.
+
+Please note that the terms and conditions of the app may change at any time, and it is your responsibility to stay informed of any updates. Your continued use of the app signifies your acceptance of the updated terms and conditions.
 </p>
 
 ## Our Goal
