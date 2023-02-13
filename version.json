@@ -1,0 +1,9 @@
+{
+    "name": "BlissBox",
+    "major": 0,
+    "minor": 1,
+    "patch": 0,
+    "channel": "alpha",
+    "changelogs": [],
+    "android_link":"https://github.com/Romanbot4/bliss_box_public"
+}
