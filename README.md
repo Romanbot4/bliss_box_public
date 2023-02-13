@@ -4,6 +4,14 @@
 <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot02.jpg?raw=true" alt="screenshot2" width="22%"></img>
 <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot03.jpg?raw=true" alt="screenshot3" width="22%"></img>
 <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot04.jpg?raw=true" alt="screenshot4" width="22%"></img>
+
+## Download
+<a href="https://github.com/Romanbot4/bliss_box_public/blob/master/app.apk" download>
+  <button style="background-color: #4CAF50; color: white; padding: 14px 20px; border: none; border-radius:4.0px; cursor: pointer;">
+    Download For Android
+  </button>
+</a>
+
 ## Disclaimer
 <p align="justify">
 BlissBox is a music app that provides access to songs and other content through third-party plugins. The app does not store any of the content on its servers and is not responsible for any of the content's availability, accuracy, or legality. The songs and other content are the property of their respective owners and are protected by copyright law. By using the app, you acknowledge that you are solely responsible for any consequences resulting from your use of the content, including any copyright or intellectual property infringement.
