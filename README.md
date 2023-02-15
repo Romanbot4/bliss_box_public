@@ -6,7 +6,7 @@
 <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot04.jpg?raw=true" alt="screenshot4" width="22%"></img>
 
 ## Download
-<a href="https://raw.githubusercontent.com/Romanbot4/bliss_box_public/master/app.apk" download>
+<a href="https://raw.githubusercontent.com/Romanbot4/bliss_box_public/master/latest.apk" download>
   <button style="background-color: #4CAF50; color: white; padding: 14px 20px; border: none; border-radius:4.0px; cursor: pointer;">
     Download For Android
   </button>
