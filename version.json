@@ -4,6 +4,13 @@
     "minor": 1,
     "patch": 0,
     "channel": "alpha",
-    "changelogs": [],
+    "changelogs": [
+        "- Fixed loading and skipping error wheen seek",
+        "- Faster media loading time",
+        "- Equilizers with multiple presets added (Player)",
+        "- Skip silence parts of audio added (Settings)",
+        "- Enhance loudness of audio while playing multiple tracks(Settings)",
+        "- User interface update (bug fixs & new)"
+    ],
     "android_link":"https://github.com/Romanbot4/bliss_box_public"
 }
