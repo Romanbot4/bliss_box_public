@@ -1,16 +1,16 @@
 {
     "name": "BlissBox",
     "major": 0,
-    "minor": 1,
+    "minor": 2,
     "patch": 0,
     "channel": "alpha",
     "changelogs": [
-        "- Fixed loading and skipping error wheen seek",
+        "- Fixed loading and skipping error when seek",
         "- Faster media loading time",
-        "- Equilizers with multiple presets added (Player)",
+        "- Equalizers with multiple presets added (Player)",
         "- Skip silence parts of audio added (Settings)",
         "- Enhance loudness of audio while playing multiple tracks(Settings)",
-        "- User interface update (bug fixs & new)"
+        "- User interface update (bug fixes & new)"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.1.1/BlissBox-v0.1.1-alpha-universal-release.apk"
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.2.0/BlissBox-v0.2.0-alpha-universal-release.apk"
 }
