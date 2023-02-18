@@ -5,14 +5,20 @@
     "patch": 0,
     "channel": "alpha",
     "changelogs": [
-        "- Fixed loading and skipping error when seek",
-        "- Faster media loading time",
+        "Moved to beta channel. Old alpha builds are now obsolete.",
+        "- Multiple tracks mange page added (On long press track)",
+        "- User's playlist items sort(up/down) and manage functions added (Offline playlists menu button)",
+        "- Update now can be skipped if not forced",
+        "- Player won't add previous session's tracks if app was loaded offline to avoid error (Temporary)",
+        "- Bugs on switching audio quality while playing fixed (Player)",
+        "- Fixed inconvenient loading when local artist item was tapped fixed (Home page)",
+        "- Fixed loading and skipping error when seek (Player)",
         "- Equalizers with multiple presets added (Player)",
         "- Skip silence parts of audio added (Settings)",
-        "- Enhance loudness of audio while playing multiple tracks(Settings)",
-        "- User interface update (bug fixes & new)"
+        "- Enhance loudness of audio while playing multiple tracks (Settings)",
+        "- User interface update (Bug fixes & new)"
     ],
     "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.2.0/BlissBox-v0.2.0-alpha-universal-release.apk",
-    "forced": false
+    "forced": true
 
 }
