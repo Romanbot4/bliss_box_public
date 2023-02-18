@@ -1,9 +1,9 @@
 {
     "name": "BlissBox",
     "major": 0,
-    "minor": 2,
+    "minor": 3,
     "patch": 0,
-    "channel": "alpha",
+    "channel": "beta",
     "changelogs": [
         "Moved to beta channel. Old alpha builds are now obsolete.",
         "- Multiple tracks mange page added (On long press track)",
@@ -18,7 +18,6 @@
         "- Enhance loudness of audio while playing multiple tracks (Settings)",
         "- User interface update (Bug fixes & new)"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.2.0/BlissBox-v0.2.0-alpha-universal-release.apk",
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.3.0/BlissBox-v0.3.0-beta-universal-release.apk",
     "forced": true
-
 }
