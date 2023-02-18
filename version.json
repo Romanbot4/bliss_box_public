@@ -12,5 +12,7 @@
         "- Enhance loudness of audio while playing multiple tracks(Settings)",
         "- User interface update (bug fixes & new)"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.2.0/BlissBox-v0.2.0-alpha-universal-release.apk"
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.2.0/BlissBox-v0.2.0-alpha-universal-release.apk",
+    "forced": false
+
 }
