@@ -1,23 +1,18 @@
 {
     "name": "BlissBox",
     "major": 0,
-    "minor": 3,
+    "minor": 4,
     "patch": 0,
     "channel": "beta",
     "changelogs": [
-        "Moved to beta channel. Old alpha builds are now obsolete.",
-        "- Multiple tracks mange page added (On long press track)",
-        "- User's playlist items sort(up/down) and manage functions added (Offline playlists menu button)",
-        "- Update now can be skipped if not forced",
-        "- Player won't add previous session's tracks if app was loaded offline to avoid error (Temporary)",
-        "- Bugs on switching audio quality while playing fixed (Player)",
-        "- Fixed inconvenient loading when local artist item was tapped fixed (Home page)",
-        "- Fixed loading and skipping error when seek (Player)",
-        "- Equalizers with multiple presets added (Player)",
-        "- Skip silence parts of audio added (Settings)",
-        "- Enhance loudness of audio while playing multiple tracks (Settings)",
-        "- User interface update (Bug fixes & new)"
+        "- Major performance optimization",
+        "- Patched device online/offline switching cause player unresponsive",
+        "- Proper permission request page added",
+        "- Added refreshing/retrying on homepage & search page",
+        "- Equalizers are set ON for default with normal parameters",
+        "- Downloader core lib has moved partially to work in isolate",
+        "  (Still require full migration)"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.3.0/BlissBox-v0.3.0-beta-universal-release.apk",
-    "forced": true
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.0/https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.0/BlissBox-v0.4.0-beta-universal-release.apk",
+    "forced": false
 }
