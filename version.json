@@ -2,17 +2,13 @@
     "name": "BlissBox",
     "major": 0,
     "minor": 4,
-    "patch": 0,
+    "patch": 1,
     "channel": "beta",
     "changelogs": [
-        "- Major performance optimization",
-        "- Patched device online/offline switching cause player unresponsive",
-        "- Proper permission request page added",
-        "- Added refreshing/retrying on homepage & search page",
-        "- Equalizers are set ON for default with normal parameters",
-        "- Downloader core lib has moved partially to work in isolate",
-        "  (Still require full migration)"
+        "  Error Patch release",
+        "- Permanent fix on player unresponsive issue",
+        "- Local chart this week & this year section not updating issue fixed"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.0/BlissBox-v0.4.0-beta-universal-release.apk",
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.1/BlissBox-v0.4.1-beta-universal-release.apk",
     "forced": false
 }
