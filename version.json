@@ -13,6 +13,6 @@
         "- Downloader core lib has moved partially to work in isolate",
         "  (Still require full migration)"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.0/https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.0/BlissBox-v0.4.0-beta-universal-release.apk",
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.0/BlissBox-v0.4.0-beta-universal-release.apk",
     "forced": false
 }
