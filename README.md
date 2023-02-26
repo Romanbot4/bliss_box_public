@@ -1,4 +1,4 @@
-## BlissBox - Free Music For Myanmar
+## BlissBox - Free Music Streaming App For Myanmar
 ![Repo Banner](https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/banner.png?raw=true)
 
 ## Overview
