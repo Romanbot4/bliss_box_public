@@ -15,7 +15,7 @@ Our goal is to provide accessible music services at no cost, with a focus on mee
 
 ## Download
 <p align="left">
-  <a href="https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.1/BlissBox-v0.4.1-beta-universal-release.apk" download>
+  <a href="https://github.com/Romanbot4/bliss_box_public/releases/download/v0.5.0/BlissBox-v0.5.0-beta-universal-release.apk" download>
     <img src="https://img.shields.io/github/downloads/Romanbot4/bliss_box_public/total?color=green&label=Download%20For%20Android">
   </a>
 </p>

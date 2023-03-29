@@ -1,14 +1,14 @@
 {
     "name": "BlissBox",
     "major": 0,
-    "minor": 4,
-    "patch": 1,
+    "minor": 5,
+    "patch": 0,
     "channel": "beta",
     "changelogs": [
-        "  Error Patch release",
-        "- Permanent fix on player unresponsive issue",
-        "- Local chart this week & this year section not updating issue fixed"
+        "- new UI update",
+        "- Performance optimized",
+        "- Suggestion on home screen added"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.4.1/BlissBox-v0.4.1-beta-universal-release.apk",
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.5.0/BlissBox-v0.5.0-beta-universal-release.apk",
     "forced": false
 }
