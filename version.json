@@ -1,7 +1,7 @@
 {
     "name": "BlissBox",
     "major": 0,
-    "minor": 5,
+    "minor": 6,
     "patch": 0,
     "channel": "beta",
     "changelogs": [
@@ -9,6 +9,6 @@
         "- Performance optimized",
         "- Suggestion on home screen added"
     ],
-    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.5.0/BlissBox-v0.5.0-beta-universal-release.apk",
-    "forced": false
+    "android_link":"https://github.com/Romanbot4/bliss_box_public/releases/download/v0.6.0/BlissBox-v0.6.0-beta-universal-release.apk",
+    "forced": true
 }

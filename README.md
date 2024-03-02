@@ -12,10 +12,13 @@ Our goal is to provide accessible music services at no cost, with a focus on mee
 <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot02.jpg?raw=true" alt="screenshot2" width="22%"></img>
 <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot03.jpg?raw=true" alt="screenshot3" width="22%"></img>
 <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot04.jpg?raw=true" alt="screenshot4" width="22%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot05.jpg?raw=true" alt="screenshot5" width="22%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot06.jpg?raw=true" alt="screenshot6" width="22%"></img>
+
 
 ## Download
 <p align="left">
-  <a href="https://github.com/Romanbot4/bliss_box_public/releases/download/v0.5.0/BlissBox-v0.5.0-beta-universal-release.apk" download>
+  <a href="https://github.com/Romanbot4/bliss_box_public/releases/download/v0.6.0/BlissBox-v0.6.0-beta-universal-release.apk" download>
     <img src="https://img.shields.io/github/downloads/Romanbot4/bliss_box_public/total?color=green&label=Download%20For%20Android">
   </a>
 </p>
