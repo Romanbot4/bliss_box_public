@@ -8,12 +8,12 @@ BlissBox has been created as a humble offering by a small group of individuals w
 Our goal is to provide accessible music services at no cost, with a focus on meeting the needs of the community and continuously improving our offerings. It is important to note that our services may not be as polished or feature-rich as paid options, but we are committed to improver over time the best of our abilities. We understand that there may be limitations and flaws in our services, but we are dedicated to continuously working to provide the best possible experience for our users. As music lovers ourselves, we are dedicated to making sure the people of Myanmar have access to the songs they love.
 </p>
 
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot01.jpg?raw=true" alt="screenshot1" width="22%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot02.jpg?raw=true" alt="screenshot2" width="22%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot03.jpg?raw=true" alt="screenshot3" width="22%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot04.jpg?raw=true" alt="screenshot4" width="22%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot05.jpg?raw=true" alt="screenshot5" width="22%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot06.jpg?raw=true" alt="screenshot6" width="22%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot01.jpg?raw=true" alt="screenshot1" width="30%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot02.jpg?raw=true" alt="screenshot2" width="30%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot03.jpg?raw=true" alt="screenshot3" width="30%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot04.jpg?raw=true" alt="screenshot4" width="30%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot05.jpg?raw=true" alt="screenshot5" width="30%"></img>
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/screenshot06.jpg?raw=true" alt="screenshot6" width="30%"></img>
 
 
 ## Download
