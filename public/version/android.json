@@ -1,0 +1,25 @@
+{
+    "name": "v0.7.0",
+    "major": 0,
+    "minor": 7,
+    "patch": 0,
+    "channel": "beta",
+    "changelogs": [
+        "- You can now watch video",
+        "- Video/Audio switching mode feature",
+        "- Login with google account supports. YouTube music suggestions will becomes so much better with account.",
+        "- Entire UI/UX rethink and redesigned from ground up.",
+        "- Entire application has been rebuilt from ground up for future updates"
+    ],
+    "androidLink": "https://play.google.com/store/apps/details?id=com.yourcompany.app",
+    "iosLink": "https://apps.apple.com/us/app/your-app-name/id1234567890",
+    "forcedVersions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3",
+        "0.0.4",
+        "0.0.5",
+        "0.0.6"
+    ],
+    "minVersion": "0.0.7"
+}
