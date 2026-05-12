@@ -1,0 +1,131 @@
+---
+---
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-info">
+      <a href="/" class="logo">
+        <img src="/icons/icon.svg" alt="BlissBox Logo" class="logo-icon-img" />
+        <span class="logo-text">Bliss<span class="gradient-text">Box</span></span>
+      </a>
+      <p class="footer-desc">The privacy-focused music streaming app for the modern era.</p>
+    </div>
+    
+    <div class="footer-links">
+      <div class="link-group">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#showcase">Showcase</a></li>
+          <li><a href="#download">Download</a></li>
+        </ul>
+      </div>
+      <div class="link-group">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="link-group">
+        <h4>Social</h4>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Telegram</a></li>
+          <li><a href="#">Discord</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; {new Date().getFullYear()} BlissBox. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    padding-top: 5rem;
+    border-top: 1px solid var(--glass-border);
+    background: rgba(5, 5, 5, 0.8);
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+
+  .footer-info {
+    max-width: 300px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 1.5rem;
+  }
+
+  .logo-icon-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+  .footer-desc {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .link-group h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+  }
+
+  .link-group ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .link-group a {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    transition: var(--transition);
+  }
+
+  .link-group a:hover {
+    color: var(--primary);
+  }
+
+  .footer-bottom {
+    padding: 2rem 0;
+    border-top: 1px solid var(--glass-border);
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      gap: 3rem;
+    }
+    
+    .footer-links {
+      gap: 3rem;
+    }
+  }
+</style>

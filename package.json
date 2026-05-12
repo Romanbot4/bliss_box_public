@@ -1,14 +1,17 @@
 {
-    "name": "bliss_box_public",
-    "private": true,
-    "version": "0.0.0",
+    "name": "bliss_box_landing",
     "type": "module",
-    "scripts": {
-        "dev": "vite --host",
-        "build": "vite build",
-        "preview": "vite preview"
+    "version": "0.0.1",
+    "engines": {
+        "node": ">=22.12.0"
     },
-    "devDependencies": {
-        "vite": "^5.0.8"
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "astro": "^6.3.1"
     }
 }

@@ -1,0 +1,210 @@
+---
+// Each entry maps a mockup file to its feature label and a short caption
+const mockups = [
+  {
+    file: "Audio.png",
+    label: "Audio Player",
+    caption: "Rich audio playback with album art, lyrics, and full controls.",
+  },
+  {
+    file: "VideoPortrait.png",
+    label: "Video Player",
+    caption: "Full-screen video with seamless switch to audio mode.",
+  },
+  {
+    file: "Artist.png",
+    label: "Artist Page",
+    caption: "Explore top songs, albums, and subscriber counts.",
+  },
+  {
+    file: "Playlist.png",
+    label: "Playlists",
+    caption: "Custom playlists with shuffle, queue, and quick actions.",
+  },
+  {
+    file: "Trend.png",
+    label: "Trending",
+    caption: "Region-specific top views updated in real time.",
+  },
+  {
+    file: "Album.png",
+    label: "Albums",
+    caption: "Full album browsing with track listings and details.",
+  },
+  {
+    file: "Search.png",
+    label: "Search",
+    caption: "Instant search across artists, albums, songs, and playlists.",
+  },
+  {
+    file: "Library.png",
+    label: "Library",
+    caption: "Your saved music, downloads, and playlists — all in one place.",
+  },
+  {
+    file: "AudioOfVideo.png",
+    label: "Audio-of-Video",
+    caption: "Play only the audio track from any video seamlessly.",
+  },
+  {
+    file: "Lyric.png",
+    label: "Lyrics",
+    caption: "Synchronized, full-screen lyrics while your music plays.",
+  },
+  {
+    file: "Explore.png",
+    label: "Explore",
+    caption: "Discover new music tailored to your taste.",
+  },
+  {
+    file: "Input.png",
+    label: "Search Input",
+    caption: "Smart search input with history and suggestions.",
+  },
+];
+---
+
+<section id="showcase" class="section-padding showcase-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">
+        A Simplicity You'll <span class="gradient-text">Love.</span>
+      </h2>
+      <p class="section-subtitle">
+        Every screen meticulously crafted for a seamless, beautiful experience.
+      </p>
+    </div>
+
+    <div class="showcase-grid">
+      {
+        mockups.map((m) => (
+          <div class="showcase-card">
+            <div class="mockup-wrapper">
+              <img
+                src={`/mockups/${m.file}`}
+                alt={`BlissBox ${m.label}`}
+                class="showcase-mockup"
+                loading="lazy"
+              />
+            </div>
+            <div class="card-info">
+              <span class="card-label">{m.label}</span>
+              <p class="card-caption">{m.caption}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .showcase-section {
+    background: radial-gradient(
+      ellipse at 50% 100%,
+      rgba(139, 92, 246, 0.06) 0%,
+      transparent 70%
+    );
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ── Grid ── */
+  .showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  /* ── Card ── */
+  .showcase-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: var(--transition);
+  }
+
+  .showcase-card:hover .mockup-wrapper {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px -10px rgba(139, 92, 246, 0.25);
+  }
+
+  .mockup-wrapper {
+    border-radius: 28px;
+    overflow: hidden;
+    background: transparent;
+    transition: var(--transition);
+    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.5);
+  }
+
+  /* landscape mockups (Video, AudioOfVideo, Input) need different treatment */
+  .showcase-mockup {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 28px;
+  }
+
+  /* ── Card info ── */
+  .card-info {
+    padding: 0 0.25rem;
+  }
+
+  .card-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--primary);
+    margin-bottom: 0.35rem;
+  }
+
+  .card-caption {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 1200px) {
+    .showcase-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .showcase-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .showcase-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+    }
+  }
+</style>

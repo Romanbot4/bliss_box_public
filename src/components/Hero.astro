@@ -1,0 +1,220 @@
+---
+
+---
+
+<section class="hero section-padding">
+  <div class="container hero-container">
+    <div class="hero-content">
+      <!-- <div class="badge animate-fade-in-up" style="animation-delay: 0.1s;">
+        <span class="badge-dot"></span>
+        Privacy-Focused Streaming
+      </div> -->
+      <h1 class="hero-title animate-fade-in-up" style="animation-delay: 0.2s;">
+        Experience Music <br />
+        <span class="gradient-text">Without Boundaries.</span>
+      </h1>
+      <p
+        class="hero-subtitle animate-fade-in-up"
+        style="animation-delay: 0.3s;"
+      >
+        BlissBox brings you a pixel-perfect streaming experience with seamless
+        audio-video switching, offline playback, and background mode. All while
+        keeping your data private.
+      </p>
+      <div
+        class="hero-actions animate-fade-in-up"
+        style="animation-delay: 0.4s;"
+      >
+        <a href="#download" class="btn btn-primary">Get Started Free</a>
+        <a href="#features" class="btn btn-secondary">Explore Features</a>
+      </div>
+    </div>
+
+    <div class="hero-image animate-fade-in-up" style="animation-delay: 0.5s;">
+      <div class="hero-glow"></div>
+      <div class="mockup-phone float-slow">
+        <img
+          src="/mockups/Home.png"
+          alt="BlissBox Home Screen"
+          class="mockup-img"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    padding-top: 12rem;
+    overflow: hidden;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  /* ── Badge ── */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    background: rgba(139, 92, 246, 0.12);
+    border: 1px solid rgba(139, 92, 246, 0.25);
+    border-radius: 99px;
+    color: var(--primary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .badge-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--primary);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--primary);
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.4;
+      transform: scale(1.6);
+    }
+  }
+
+  /* ── Text ── */
+  .hero-title {
+    font-size: 4.2rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .hero-subtitle {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    max-width: 540px;
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  /* ── Image container ── */
+  .hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(
+      circle,
+      var(--primary-glow) 0%,
+      transparent 65%
+    );
+    filter: blur(60px);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* ── Single phone mockup ── */
+  .mockup-phone {
+    position: relative;
+    z-index: 2;
+    width: 260px;
+    filter: drop-shadow(0 30px 50px rgba(139, 92, 246, 0.3));
+  }
+
+  .mockup-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  /* ── Slow infinite float ── */
+  @keyframes floatSlow {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-18px);
+    }
+  }
+
+  .float-slow {
+    animation: floatSlow 6s ease-in-out infinite;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 1100px) {
+    .hero-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hero-title {
+      font-size: 3.2rem;
+    }
+
+    .hero-actions {
+      justify-content: center;
+    }
+
+    .hero-image {
+      margin-top: 3rem;
+    }
+
+    .mockup-phone {
+      width: 220px;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .hero-title {
+      font-size: 2.6rem;
+    }
+
+    .hero-actions {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .mockup-phone {
+      width: 180px;
+    }
+  }
+</style>

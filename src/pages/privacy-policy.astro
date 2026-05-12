@@ -1,0 +1,128 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Privacy Policy - BlissBox">
+  <Navbar />
+  
+  <main class="content-page">
+    <div class="container">
+      <div class="glass-card policy-card">
+        <h1 class="gradient-text">Privacy Policy</h1>
+        <p class="last-updated">Last Updated: May 9, 2026</p>
+        
+        <div class="policy-content">
+          <section>
+            <h2>1. Introduction</h2>
+            <p>At BlissBox, we believe that your music taste is your business. This Privacy Policy outlines how we handle your data in our privacy-focused streaming application. Unlike traditional platforms, we prioritize local processing and minimal data collection.</p>
+          </section>
+
+          <section>
+            <h2>2. Data We Collect</h2>
+            <p>As a YouTube Music / Streaming client focused on privacy, BlissBox collects minimal data:</p>
+            <ul>
+              <li><strong>Local Library Data:</strong> Information about your offline downloads and local playlists stays on your device.</li>
+              <li><strong>Playback History:</strong> If enabled, history is stored locally to provide recommendations without being synced to a central server unless explicitly requested.</li>
+              <li><strong>Account Information:</strong> If you choose to sync your account, only necessary authentication tokens are stored securely.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>3. How We Use Data</h2>
+            <p>We use your data strictly to provide and improve the streaming experience:</p>
+            <ul>
+              <li>To switch between audio and video modes seamlessly.</li>
+              <li>To manage your offline downloads and background playback.</li>
+              <li>To provide a personalized UI based on your preferences.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>4. Third-Party Services</h2>
+            <p>BlissBox interacts with external streaming APIs (like YouTube Music). While BlissBox itself does not track you, these third-party services may have their own privacy policies. We encourage you to review them.</p>
+          </section>
+
+          <section>
+            <h2>5. Security</h2>
+            <p>We implement industry-standard encryption for any data that leaves your device and ensure that your privacy is never compromised for advertising purposes.</p>
+          </section>
+
+          <section>
+            <h2>6. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please reach out via our GitHub or Telegram community.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .content-page {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    min-height: 80vh;
+  }
+
+  .policy-card {
+    padding: 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .last-updated {
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    font-size: 0.9rem;
+  }
+
+  .policy-content section {
+    margin-bottom: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+  }
+
+  p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+    color: var(--text-secondary);
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+
+  strong {
+    color: var(--text-primary);
+  }
+
+  @media (max-width: 768px) {
+    .policy-card {
+      padding: 2rem;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+</style>

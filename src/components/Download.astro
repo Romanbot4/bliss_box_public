@@ -1,0 +1,193 @@
+---
+
+---
+
+<section id="download" class="section-padding download-section">
+  <div class="container">
+    <div class="glass-card download-card">
+      <div class="download-content">
+        <h2 class="download-title">
+          Ready to <span class="gradient-text">Stream?</span>
+        </h2>
+        <p class="download-subtitle">
+          Download BlissBox today and elevate your music experience. Available
+          on all major platforms.
+        </p>
+
+        <div class="download-links">
+          <!-- <a href="#" class="download-btn">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+              alt="Google Play"
+              height="50"
+            />
+          </a>
+          <a href="#" class="download-btn">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+              alt="App Store"
+              height="50"
+            />
+          </a> -->
+          <a
+            href="https://f-droid.org/"
+            target="_blank"
+            class="download-btn-text"
+          >
+            <span class="icon">🤖</span>
+            <div class="text">
+              <span class="small">Get it on</span>
+              <span class="large">F-Droid</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/"
+            target="_blank"
+            class="download-btn-text"
+          >
+            <span class="icon">🐙</span>
+            <div class="text">
+              <span class="small">View on</span>
+              <span class="large">GitHub</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .download-section {
+    position: relative;
+  }
+
+  .download-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 4rem;
+    align-items: center;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+  }
+
+  .download-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .download-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+  }
+
+  .download-links {
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .download-btn img {
+    transition: var(--transition);
+  }
+
+  .download-btn:hover img {
+    transform: scale(1.05);
+  }
+
+  .download-btn-text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #000;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: var(--transition);
+  }
+
+  .download-btn-text:hover {
+    background: #111;
+    border-color: #555;
+    transform: translateY(-2px);
+  }
+
+  .download-btn-text .icon {
+    font-size: 1.5rem;
+  }
+
+  .download-btn-text .text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .download-btn-text .small {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  .download-btn-text .large {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .download-visual {
+    display: flex;
+    justify-content: center;
+  }
+
+  .qr-code {
+    background: white;
+    padding: 2rem;
+    border-radius: 24px;
+    text-align: center;
+    color: black;
+  }
+
+  .qr-inner {
+    width: 150px;
+    height: 150px;
+    background: #f0f0f0;
+    border: 10px solid #000;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .qr-dot {
+    width: 40px;
+    height: 40px;
+    background: #000;
+  }
+
+  .qr-code p {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 1024px) {
+    .download-card {
+      grid-template-columns: 1fr;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .download-links {
+      grid-auto-flow: row;
+      justify-self: center;
+    }
+
+    .download-visual {
+      display: none;
+    }
+  }
+</style>

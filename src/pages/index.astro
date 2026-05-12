@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import Features from '../components/Features.astro';
+import Showcase from '../components/Showcase.astro';
+import Download from '../components/Download.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="BlissBox - Privacy-Focused Free Music Streaming">
+	<Navbar />
+	<main>
+		<Hero />
+		<Showcase />
+		<Features />
+		<Download />
+	</main>
+	<Footer />
+</Layout>
+
+<style>
+	main {
+		width: 100%;
+	}
+</style>

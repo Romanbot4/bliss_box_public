@@ -1,0 +1,122 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="About Us - BlissBox">
+  <Navbar />
+  
+  <main class="content-page">
+    <div class="container">
+      <div class="glass-card about-card">
+        <h1 class="gradient-text">About BlissBox</h1>
+        <p class="tagline">Streaming music should be private, beautiful, and boundary-free.</p>
+        
+        <div class="about-content">
+          <section class="mission">
+            <h2>Our Mission</h2>
+            <p>BlissBox was born out of a simple frustration: music streaming apps have become bloated, privacy-invasive, and restricted. We wanted a client that respects the user, provides a high-end visual experience, and offers essential features like offline playback and background mode without the premium price tag.</p>
+          </section>
+
+          <div class="features-grid">
+            <div class="feature-small">
+              <h3>Privacy First</h3>
+              <p>We don't track your listening habits. Your data stays on your device.</p>
+            </div>
+            <div class="feature-small">
+              <h3>Fluid UI</h3>
+              <p>Inspired by the best design languages, BlissBox offers a sleek, modern interface.</p>
+            </div>
+            <div class="feature-small">
+              <h3>Community Driven</h3>
+              <p>Built by music lovers for music lovers. We listen to our users.</p>
+            </div>
+          </div>
+
+          <section class="story">
+            <h2>The Story</h2>
+            <p>What started as a small project to create a better audio-video switcher for YouTube Music has evolved into BlissBox. We've meticulously optimized every transition and pixel to ensure that the app feels as good as it looks. From the Samsung-style hardware aesthetics to the fluid glassmorphism UI, BlissBox is designed to be the ultimate music companion.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .content-page {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    min-height: 80vh;
+  }
+
+  .about-card {
+    padding: 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .tagline {
+    font-size: 1.25rem;
+    color: var(--primary);
+    margin-bottom: 3rem;
+    font-weight: 600;
+  }
+
+  .about-content section {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: var(--text-primary);
+  }
+
+  p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .feature-small h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--secondary);
+  }
+
+  .feature-small p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .about-card {
+      padding: 2rem;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
