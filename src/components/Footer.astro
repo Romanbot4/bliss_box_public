@@ -1,10 +1,12 @@
 ---
+import { Image } from 'astro:assets';
+import logoIcon from '../assets/icons/icon.svg';
 ---
 <footer class="footer">
   <div class="container footer-container">
     <div class="footer-info">
       <a href="/" class="logo">
-        <img src="/icons/icon.svg" alt="BlissBox Logo" class="logo-icon-img" />
+        <Image src={logoIcon} alt="BlissBox Logo" class="logo-icon-img" />
         <span class="logo-text">Bliss<span class="gradient-text">Box</span></span>
       </a>
       <p class="footer-desc">The privacy-focused music streaming app for the modern era.</p>

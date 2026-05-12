@@ -1,11 +1,12 @@
 ---
-
+import { Image } from 'astro:assets';
+import logoIcon from '../assets/icons/icon.svg';
 ---
 
 <nav class="navbar">
   <div class="container nav-container">
     <a href="/" class="logo">
-      <img src="/icons/icon.svg" alt="BlissBox Logo" class="logo-icon-img" />
+      <Image src={logoIcon} alt="BlissBox Logo" class="logo-icon-img" />
       <span class="logo-text">Bliss<span class="gradient-text">Box</span></span>
     </a>
     <ul class="nav-links" id="nav-links">
