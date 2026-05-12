@@ -1,6 +1,6 @@
 ---
-import { Image } from 'astro:assets';
-import homeMockup from '../assets/mockups/Home.png';
+import { Image } from "astro:assets";
+import homeMockup from "../assets/mockups/Home.png";
 ---
 
 <section class="hero section-padding">
@@ -34,26 +34,34 @@ import homeMockup from '../assets/mockups/Home.png';
     <div class="hero-image animate-fade-in-up" style="animation-delay: 0.5s;">
       <div class="hero-glow"></div>
       <div class="mockup-phone float-slow">
-        <Image
-          src={homeMockup}
-          alt="BlissBox Home Screen"
-          class="mockup-img"
-        />
+        <Image src={homeMockup} alt="BlissBox Home Screen" class="mockup-img" />
       </div>
     </div>
   </div>
 
-  <div class="container capsule-container animate-fade-in-up" style="animation-delay: 0.6s;">
-    <a href="https://keepandroidopen.org/" target="_blank" rel="noopener noreferrer" class="threat-capsule">
-      <span class="capsule-badge">Alert</span>
+  <div
+    class="container capsule-container animate-fade-in-up"
+    style="animation-delay: 0.6s;"
+  >
+    <a
+      href="https://keepandroidopen.org/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="threat-capsule"
+    >
       <p class="capsule-text">
-        <strong class="text-white">Independent apps are under threat.</strong> Quiet ecosystem changes are restricting your freedom to install the software you choose. <span class="capsule-link">Learn how to help &rarr;</span>
+        <strong class="text-white">Independent apps are under threat.</strong>
+        <span class="capsule-link">Learn how to help &rarr;</span>
       </p>
     </a>
   </div>
 </section>
 
 <style>
+  .capsule-text {
+    color: var(--text-secondary);
+  }
+
   .hero {
     position: relative;
     padding-top: 12rem;
