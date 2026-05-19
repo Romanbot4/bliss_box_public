@@ -1,25 +1,36 @@
-## BlissBox - Free Music For Myanmar
+# BlissBox - Free Music For Myanmar
 
 ![Repo Banner](https://github.com/Romanbot4/bliss_box_public/blob/master/screenshots/banner.png?raw=true)
+
+> **Maintained by [Kyaw Pyae Phyo](https://github.com/Romanbot4)** 🇸🇬🇲🇲\
+> _Fullstack Software Developer | Design Enthusiast_
+>
+> ![Frameworks](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat-square&logo=Flutter&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB) ![.Net](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Remix](https://img.shields.io/badge/remix-%23000.svg?style=flat-square&logo=remix&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white) ![Astro](https://img.shields.io/badge/astro-%23ff5d01.svg?style=flat-square&logo=astro&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
+>
+> #### Need someone who can deliver from start to finish? Let's talk.
+>
+> [![Email](https://img.shields.io/badge/Email-mgkyawpyaephyo%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mgkyawpyaephyo@gmail.com)
+> [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kyaw-pyae-phyo-6b6915169/)
+> [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Romanbot4)
 
 ## Overview
 
 <p align="justify">
-BlissBox has been created as a humble offering by a small group of individuals who are passionate about music and working in their free time. We are not a big company or well-established organization, but a couple of individuals who are dedicated to serving the Myanmar community to the best of our abilities.
+BlissBox is a free music streaming application built primarily for the Myanmar community. The project was created and is maintained independently by a small group of passionate music lovers and developers during their free time.
 
-Our goal is to provide accessible music services at no cost, with a focus on meeting the needs of the community and continuously improving our offerings. It is important to note that our services may not be as polished or feature-rich as paid options, but we are committed to improver over time the best of our abilities. We understand that there may be limitations and flaws in our services, but we are dedicated to continuously working to provide the best possible experience for our users. As music lovers ourselves, we are dedicated to making sure the people of Myanmar have access to the songs they love.
+The goal of BlissBox is simple: provide an accessible, lightweight, and modern music experience without subscriptions or intrusive ads. While the project may not have the resources of large commercial platforms, it focuses on delivering a clean user experience, useful playback features, and community-focused accessibility.
+
+BlissBox continues to evolve through continuous improvements, experimentation, and user feedback. Every feature, design decision, and update is built with the intention of making music easier to discover and enjoy for everyone.
 
 </p>
 
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Home.png?raw=true" alt="screenshot1" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Search.png?raw=true" alt="screenshot2" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Trend.png?raw=true" alt="screenshot3" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Library.png?raw=true" alt="screenshot4" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/AudioOfVideo.png?raw=true?raw=true" alt="screenshot5" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Lyric.png?raw=true?raw=true" alt="screenshot6" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Artist.png?raw=true" alt="screenshot7" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Album.png?raw=true?raw=true" alt="screenshot8" width="30%"></img>
-<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Playlist.png?raw=true?raw=true" alt="screenshot9" width="30%"></img>
+---
+
+## Screenshots
+
+<img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Home.png?raw=true" alt="Home" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Search.png?raw=true" alt="Search" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Trend.png?raw=true" alt="Trend" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Library.png?raw=true" alt="Library" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/AudioOfVideo.png?raw=true" alt="Audio Of Video" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Lyric.png?raw=true" alt="Lyrics" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Artist.png?raw=true" alt="Artist" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Album.png?raw=true" alt="Album" width="30%"></img> <img src="https://github.com/Romanbot4/bliss_box_public/blob/master/src/assets/mockups/Playlist.png?raw=true" alt="Playlist" width="30%"></img>
+
+---
 
 ## Download
 
@@ -29,42 +40,106 @@ Our goal is to provide accessible music services at no cost, with a focus on mee
   </a>
 </p>
 
-### Use proper VPN if you are from Myanmar or you will end up with multiple errors
+### Important Note
+
+Users from Myanmar may require a <b>VPN</b> depending on local network restrictions and content availability.
+
+---
 
 ## Features
 
-- Song, Album, Artist and Playlist Search
-- Language Specific Playlists
-- Trending Songs
-- Artist and Genre
-- Local and Global Top songs
-- Add Songs to Favorite
-- Add Songs to Playlists support
+### Music Discovery
+
+- Song search
+- Artist search
+- Album search
+- Playlist search
+- Genre browsing
+- Trending songs
+- Local and global top charts
+- Language-specific playlists
+- Auto-generated recommendations
+- Related song suggestions
+- Recent search history
+
+### Playback Experience
+
+- Online music streaming
+- Offline/local audio playback
+- Background playback
+- Queue management
+- Playlist management
+- Favorite songs library
 - Sleep timer
-- Lyrics Support
-- Queue Management
-- Listened history record
-- Play Online as well as Offline Songs
-- Recent Search Records
-- Play videos as audio
-- Auto Song Recommendations
-- Auto Update Check
-- Equalizers with multiple presets
-- Skip silence parts of audio
-- Enhance loudness of audio while playing multiple tracks
-- Clean & fresh UI
-- No Subscription
-- No Ads
+- Lyrics support
+- Video audio playback
+- Skip silence during playback
+- Audio loudness enhancement
+- Equalizer support with presets
+
+### Library & Personalization
+
+- Listening history
+- Custom playlists
+- Favorite collections
+- Persistent playback state
+- Multi-source content browsing
+
+### App Experience
+
+- Clean and modern UI
+- Lightweight experience
+- No subscription required
+- No advertisements
+- Auto update check
+- Responsive mobile-first design
+
+---
+
+## Tech Stack
+
+Application
+
+- Flutter
+- Dart
+- Figma
+
+Landing WebPage
+
+- Astro
+
+---
 
 ## Disclaimer
 
 <p align="justify">
-BlissBox is a music app that provides access to songs and other content through third-party plugins. The app does not store any of the content on its servers and is not responsible for any of the content's availability, accuracy, or legality. The songs and other content are the property of their respective owners and are protected by copyright law. By using the app, you acknowledge that you are solely responsible for any consequences resulting from your use of the content, including any copyright or intellectual property infringement.
+BlissBox is a music player and discovery application that provides access to publicly available third-party content through external providers and plugins.
 
-BlissBox does not have any affiliation or endorsement with the owners of the songs and other content, and does not assume any responsibility for any harm or damage that may result from the use of the third-party plugins. The app does not provide any warranty for the accuracy, reliability, or availability of the content and is not responsible for any errors or omissions in the content.
+BlissBox does not host or store copyrighted music content on its own servers. All trademarks, songs, albums, artist names, and related media belong to their respective owners.
 
-By using the app, you agree to use the songs and other content only for personal, non-commercial purposes and in accordance with all applicable laws and regulations. BlissBox does not support or condone any unauthorized use of the songs and other content available through the app, and you may be subject to legal action if you violate any copyright or intellectual property rights.
+The availability, accuracy, or legality of third-party content is the responsibility of the respective content providers. BlissBox does not claim ownership over any streamed or accessed media.
 
-Please note that the terms and conditions of the app may change at any time, and it is your responsibility to stay informed of any updates. Your continued use of the app signifies your acceptance of the updated terms and conditions.
+Users are responsible for ensuring that their usage complies with local laws, copyright regulations, and the terms of the respective content providers.
+
+This project is developed independently for educational, experimental, and personal entertainment purposes. BlissBox does not encourage copyright infringement or unauthorized commercial redistribution of content.
 
 </p>
+
+---
+
+## Support The Project
+
+If you enjoy BlissBox, consider:
+
+- Starring the repository
+- Reporting bugs and issues
+- Suggesting features
+- Sharing feedback with the community
+
+Independent projects grow through community support.
+
+---
+
+## License
+
+Please refer to the repository license for usage and distribution terms.
